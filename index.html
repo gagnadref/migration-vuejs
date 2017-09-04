@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>webpack</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="vue2">
+        <component2></component2>
+        <component1 inline-template>
+          <span>Hello Vue1</span>
+        </component1>
+        <component2 inline-template>
+          <span>Hello Vue2</span>
+        </component2>
+        <component1></component1>
+        <component2>
+          <component1></component1>
+        </component2>
+        <component1></component1>
+        <component2></component2>
+      </div>
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
